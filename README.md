@@ -6,7 +6,9 @@ Income growth has been highest in area <mark>16710  Hollola kk (Hollola) observe
 Some other areas such as Kaartinkaupunki the growth has been recently declining. It might something to do with pandemic when
 People are looking for more spacious apartments. Also, there has been growth in smaller areas during the same time which can additionally support the hypothesis that people are moving away from city centers where apartments can be quite small.
 
+### Script's properties
 
+5 individual JSON-queries which are stored in parser function which generates new listis. A function which generates SQLite-database. A plotter function which iteras over parser-functions lists and generates the wanted information and visualizes them. Lastly, a main-function which calls all aforementioned functions.
 ### Technical notes
 
 There is a possibility to automate this script to update every March. It will need a designated function which checks the time and generates new JSON-query. This function will also generate a new SQLite-table and update the Zip-code index from five to six.
