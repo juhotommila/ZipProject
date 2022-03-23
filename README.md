@@ -8,7 +8,7 @@ People are looking for more spacious apartments. Also, there has been growth in 
 
 ### Script's properties
 
-5 individual JSON-queries which are stored in parser function which generates new listis. A function which generates SQLite-database. A plotter function which iteras over parser-functions lists and generates the wanted information and visualizes them. Lastly, a main-function which calls all aforementioned functions.
+5 individual JSON-queries which are stored in parser function which generates new listis. A function which generates SQLite-database. A plotter function which iterates over parser-functions lists and generates the wanted information and visualizes them. Lastly, a main-function which calls all aforementioned functions.
 ### Technical notes
 
 There is a possibility to automate this script to update every March. It will need a designated function which checks the time and generates new JSON-query. This function will also generate a new SQLite-table and update the Zip-code index from five to six.
